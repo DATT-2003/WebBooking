@@ -1,0 +1,333 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+/* Reset some default browser padding */
+/* Reset some default browser padding */
+/* Reset some default browser padding */
+/* Reset some default browser padding */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  width: 1920px;
+  height: 1080px;
+  background-image: url("C:\Users\ADMIN\OneDrive\Máy tính\lqbn_web\src\assets\valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg");
+  /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Topheader styling */
+.topheader {
+  width: 1497.79px;
+  height: 149px;
+  position: absolute;
+  left: 213px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0px;
+  opacity: 1;
+}
+
+/* Div Logo */
+.logo {
+  width: 256px;
+  height: 149px;
+  background-color: #e0b973;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.logo-luxury {
+  font-family: "Adobe Garamond Pro", serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.15em;
+  text-align: left;
+  margin: 0;
+}
+
+.logo-hotels {
+  font-family: "Adobe Garamond Pro", serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.6em;
+  text-align: left;
+  margin: 0;
+  margin-top: 5px;
+}
+
+/* Navbar styling */
+.navbar {
+  width: 699.79px;
+  height: 31px;
+  position: absolute;
+  top: 59px;
+  left: 1011px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 1;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* Home link styling */
+.home {
+  width: 79px;
+  height: 30px;
+  opacity: 1;
+}
+
+.home a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30.48px;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+}
+
+/* Facilities link styling */
+.facilities {
+  width: 109px;
+  height: 30px;
+  opacity: 1;
+}
+
+.facilities a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30.48px;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  border-bottom: 0.5px solid white;
+}
+
+/* Rooms link styling */
+.rooms {
+  width: 89px;
+  height: 30px;
+  opacity: 1;
+}
+
+.rooms a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30.48px;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  border-bottom: 0.5px solid white;
+}
+
+/* Contact-us link styling */
+.contact {
+  width: 138px;
+  height: 30px;
+  opacity: 1;
+}
+
+.contact a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30.48px;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  border-bottom: 0.5px solid white;
+}
+
+/* Welcome section styling */
+.welcome {
+  position: absolute;
+  left: 213px;
+  top: 342px;
+  opacity: 1;
+}
+
+/* WELCOME TO: text styling */
+.welcome-to {
+  width: 359px;
+  height: 61px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 60.95px;
+  text-align: left;
+  color: white;
+  margin: 0;
+}
+
+/* LUXURY text styling */
+.luxury {
+  width: 698px;
+  height: 134px;
+  font-family: "Adobe Garamond Pro", serif;
+  font-size: 154px;
+  font-weight: 700;
+  line-height: 184.8px;
+  letter-spacing: 0.07em;
+  text-align: left;
+  color: white;
+  margin: 0;
+}
+
+/* HOTELS text styling */
+.hotels {
+  width: 354px;
+  height: 72px;
+  font-family: "Adobe Garamond Pro", serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0.4em;
+  text-align: left;
+  color: white;
+  margin: 0;
+}
+
+/* Description text styling */
+.description {
+  width: 575px;
+  height: 60px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30.48px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: white;
+  margin-top: 20px;
+}
+
+/* Book Now Button */
+.book-now {
+  width: 268px;
+  height: 78px;
+  position: absolute;
+  top: 778px;
+  left: 826px;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 78px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  opacity: 1;
+}
+
+.home-icon {
+  font-size: 24px;
+}
+
+/* Scroll Section */
+.scroll-section {
+  position: absolute;
+  bottom: 30px;
+  /* Đặt phần này cách phần dưới của header 30px */
+  left: calc(50% - 39.5px);
+  /* Canh giữa theo chiều ngang */
+  display: flex;
+  flex-direction: column;
+  /* Xếp theo cột */
+  align-items: center;
+  /* Canh giữa */
+}
+
+/* Scroll Button */
+.scroll-button {
+  width: 79px;
+  height: 79px;
+  /* Điều chỉnh chiều cao cho nút */
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+}
+
+/* Down icon styling */
+.down-icon {
+  font-size: 24px;
+  /* Kích thước icon chỉ xuống */
+}
