@@ -59,7 +59,7 @@ html {
 .header {
   width: 1920px;
   height: 1080px;
-  background-image: url("C:\Users\ADMIN\OneDrive\Máy tính\lqbn_web\src\assets\valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg");
+  background-image: url('../../public/images/valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg');
   /* Replace with your image URL */
   background-size: cover;
   background-position: center;
